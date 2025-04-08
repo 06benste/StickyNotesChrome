@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Sticky Notes",
+  "version": "1.0",
+  "description": "Add sticky notes to websites",
+  "permissions": ["storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

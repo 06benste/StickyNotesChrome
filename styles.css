@@ -1,0 +1,62 @@
+#container {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 5px;
+  resize: none;
+}
+
+button {
+  margin-bottom: 5px;
+}
+
+#export-notes {
+  background: #4CAF50; /* Green for export */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.note {
+  background-color: #ffff99;
+  border: 1px solid #cccc00;
+  padding: 10px;
+  margin: 5px 0;
+  width: 260px;
+  min-height: 80px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Comic Sans MS', cursive;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: absolute;
+  background: #ff6666;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 2px 5px;
+  top: 5px;
+}
+
+.note button.edit-btn {
+  right: 30px;
+}
+
+.note button.delete-btn {
+  right: 5px;
+}
+
+.note .hostname {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+}
