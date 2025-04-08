@@ -1,0 +1,21 @@
+Sticky Notes Privacy Policy
+
+Last Updated: April 08, 2025
+
+Sticky Notes is a Chrome extension developed by Ben Steele. I value your privacy and collect minimal data to provide note-taking functionality.
+
+Data Collected:
+- Website hostnames (e.g., "example.com") to associate notes with sites.
+- User-entered notes stored via chrome.storage.sync.
+
+Data Usage:
+- Data is used solely to enable site-specific note-taking and syncing across devices if Chrome Sync is enabled.
+- We do not sell, share, or transfer your data to third parties, except as part of Chrome Sync’s approved use case.
+- No data is used for unrelated purposes, creditworthiness, or lending.
+
+Permissions:
+- "storage": To save and retrieve notes.
+- "activeTab": To identify the current website’s hostname.
+
+
+This policy may be updated; check the Chrome Web Store listing for the latest version.
